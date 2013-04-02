@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="0KD-lz-Ntg">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="BhJ-g5-0CY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9y-aH-fgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="jnO-Hw-wfI" customClass="ParallelBrainController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uzg-Eu-Ctc">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="duL-jP-RVq">
+                                <rect key="frame" x="20" y="134" width="410" height="275"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Parallel Brain" lineBreakMode="tailTruncation" minimumFontSize="10" id="d3y-fj-1e0">
+                                <rect key="frame" x="219" y="-32" width="390" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="39"/>
+                                <color key="textColor" red="0.58431375026702881" green="0.070588238537311554" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="highlightedColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.68999999999999995" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.81568634510000004" green="0.81568634510000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="qPA-dW-fgc">
+                                <rect key="frame" x="354" y="479" width="410" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="kgz-qM-hdb">
+                                <rect key="frame" x="374" y="498" width="370" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="O7o-hw-npl">
+                                <rect key="frame" x="374" y="523" width="370" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gAx-0o-Iao">
+                                <rect key="frame" x="495" y="797" width="128" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrong:" destination="jnO-Hw-wfI" eventType="touchUpInside" id="HvH-bS-itS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kPf-1y-ghq">
+                                <rect key="frame" x="134" y="797" width="128" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="correct:" destination="jnO-Hw-wfI" eventType="touchUpInside" id="cgU-eP-Nce"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="2wo-5f-fwb">
+                                <rect key="frame" x="40" y="156" width="370" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="1gP-Cl-9cf">
+                                <rect key="frame" x="40" y="184" width="370" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="JWk-NN-d8c">
+                                <rect key="frame" x="482" y="134" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" textAlignment="center" id="HwU-uD-0Ar">
+                                <rect key="frame" x="67" y="466" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Score :" lineBreakMode="tailTruncation" minimumFontSize="10" id="VKm-Op-nGu">
+                                <rect key="frame" x="577" y="-18" width="76" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" lineBreakMode="tailTruncation" minimumFontSize="29" id="siG-jM-lZG">
+                                <rect key="frame" x="654" y="-19" width="142" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Time" lineBreakMode="tailTruncation" minimumFontSize="10" id="wZf-zO-OtH">
+                                <rect key="frame" x="11" y="-1" width="92" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="WCj-6R-bzd">
+                                <rect key="frame" x="482" y="287" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="SX7-mP-bfi">
+                                <rect key="frame" x="67" y="602" width="240" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="VPH-yT-EFQ">
+                                <rect key="frame" x="256" y="405" width="256" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="42"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startParallelBrain:" destination="jnO-Hw-wfI" eventType="touchUpInside" id="ul2-JJ-4PL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Parallel Brain" image="Play Rules.gif" id="euN-dX-oc2"/>
+                    <connections>
+                        <outlet property="correctButton" destination="kPf-1y-ghq" id="vRr-eK-1bn"/>
+                        <outlet property="downImage" destination="qPA-dW-fgc" id="jmB-ng-a23"/>
+                        <outlet property="downTextBox" destination="O7o-hw-npl" id="44a-2n-1A0"/>
+                        <outlet property="leftInfo" destination="HwU-uD-0Ar" id="Z8m-rM-Pnu"/>
+                        <outlet property="leftYesNo" destination="SX7-mP-bfi" id="FwQ-xu-PoL"/>
+                        <outlet property="rightInfo" destination="JWk-NN-d8c" id="j3U-dt-DdG"/>
+                        <outlet property="rightYesNo" destination="WCj-6R-bzd" id="mD2-1z-iaF"/>
+                        <outlet property="scoreLabel" destination="siG-jM-lZG" id="Z5N-zc-RpS"/>
+                        <outlet property="scoreLabelLeft" destination="VKm-Op-nGu" id="WKG-OH-7xo"/>
+                        <outlet property="startButton" destination="VPH-yT-EFQ" id="TXN-HM-N2D"/>
+                        <outlet property="timeLabel" destination="wZf-zO-OtH" id="VJ9-jU-R9a"/>
+                        <outlet property="upImage" destination="duL-jP-RVq" id="zl8-Fz-o35"/>
+                        <outlet property="upTextBox" destination="1gP-Cl-9cf" id="7Vj-Ox-rix"/>
+                        <outlet property="wrongButton" destination="gAx-0o-Iao" id="ghE-ux-HIE"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="223" y="-2234"/>
+        </scene>
+        <scene sceneID="vqR-ZF-une">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMR-mU-Rfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="dPK-fz-OoV" customClass="settings" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ivj-Il-11U">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="LOA-3h-mI3">
+                                <rect key="frame" x="225" y="218" width="409" height="487"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.180392161" green="0.14509804549999999" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="QF4-NB-aev">
+                                <rect key="frame" x="232" y="225" width="394" height="472"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="uzZ-sz-6FV">
+                                <rect key="frame" x="463" y="467" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="faceSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="ync-RE-Auf"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="social" lineBreakMode="tailTruncation" minimumFontSize="8" id="2am-KC-4jR">
+                                <rect key="frame" x="319" y="572" width="71" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="English" lineBreakMode="tailTruncation" minimumFontSize="8" id="FGm-mI-JFY">
+                                <rect key="frame" x="319" y="461" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Japanese" lineBreakMode="tailTruncation" minimumFontSize="8" id="ZNf-ae-PJD">
+                                <rect key="frame" x="319" y="519" width="96" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Language" lineBreakMode="tailTruncation" minimumFontSize="8" id="Hy9-xr-tCA">
+                                <rect key="frame" x="361" y="403" width="122" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="JrC-2p-mH2">
+                                <rect key="frame" x="463" y="579" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="socialSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="86e-hS-48H"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="1N0-0T-PmZ">
+                                <rect key="frame" x="463" y="522" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="planetSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="u0t-CJ-ZNx"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sound" lineBreakMode="tailTruncation" minimumFontSize="10" id="XWO-LR-Vhg">
+                                <rect key="frame" x="385" y="248" width="88" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="WXB-6M-NeX">
+                                <rect key="frame" x="385" y="308" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="soundOnOff:" destination="dPK-fz-OoV" eventType="valueChanged" id="a0k-Qw-xJh"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Change Settings" lineBreakMode="tailTruncation" minimumFontSize="10" id="2i2-gZ-QWG">
+                                <rect key="frame" x="302" y="165" width="240" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1540487612" green="0.080070073670000005" blue="0.80612244899999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.68999999999999995" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Nero-Smart-Start-icon.png" id="clq-U7-UBM"/>
+                    <connections>
+                        <outlet property="faceS" destination="uzZ-sz-6FV" id="LFs-N2-R5r"/>
+                        <outlet property="planetS" destination="1N0-0T-PmZ" id="2jy-tQ-pz3"/>
+                        <outlet property="socialS" destination="JrC-2p-mH2" id="KiB-NR-O7o"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="239" y="-721"/>
+        </scene>
+        <scene sceneID="BVu-Hf-PXY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0K-4I-thp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController definesPresentationContext="YES" id="0KD-lz-Ntg" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yFq-uX-KdK">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jnO-Hw-wfI" kind="relationship" relationship="viewControllers" id="tQL-xC-Ycl"/>
+                        <segue destination="dPK-fz-OoV" kind="relationship" relationship="viewControllers" id="15V-8P-DDS"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-1169" y="-1427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Nero-Smart-Start-icon.png" width="32" height="32"/>
+        <image name="Play Rules.gif" width="48" height="32"/>
+    </resources>
+    <classes>
+        <class className="AVAudioPlayer" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AVAudioPlayer.h"/>
+        </class>
+        <class className="ParallelBrainController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParallelBrainController.h"/>
+            <relationships>
+                <relationship kind="action" name="correct:"/>
+                <relationship kind="action" name="startParallelBrain:"/>
+                <relationship kind="action" name="wrong:"/>
+                <relationship kind="outlet" name="correctButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="correctBuzz" candidateClass="AVAudioPlayer"/>
+                <relationship kind="outlet" name="downImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="downTextBox" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="leftInfo" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="leftYesNo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="rightInfo" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="rightYesNo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scoreLabelLeft" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="startButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="upImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="upTextBox" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="wrongButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="wrongBuzz" candidateClass="AVAudioPlayer"/>
+            </relationships>
+        </class>
+        <class className="settings" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/settings.h"/>
+            <relationships>
+                <relationship kind="action" name="faceSwitch:"/>
+                <relationship kind="action" name="planetSwitch:"/>
+                <relationship kind="action" name="socialSwitch:"/>
+                <relationship kind="action" name="soundOnOff:"/>
+                <relationship kind="outlet" name="faceS" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="planetS" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="socialS" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
